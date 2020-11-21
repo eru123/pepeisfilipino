@@ -1,0 +1,16 @@
+{
+    "name": "skidd/pepeisfilipino",
+    "description": "Pepe API",
+    "type": "project",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Jericho Aquino",
+            "email": "yeoligoakino@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "eru123/pepe": "^1.0"
+    }
+}

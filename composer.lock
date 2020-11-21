@@ -1,0 +1,88 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c5b69c5c6e7462fdf5e5e4de65c31359",
+    "packages": [
+        {
+            "name": "eru123/noengine",
+            "version": "v2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/eru123/NoEngine.git",
+                "reference": "a049898a677ae87ae8b634ed8d823c362e686f2d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/eru123/NoEngine/zipball/a049898a677ae87ae8b634ed8d823c362e686f2d",
+                "reference": "a049898a677ae87ae8b634ed8d823c362e686f2d",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "NoEngine\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jericho Aquino",
+                    "email": "yeoligoakino@gmail.com"
+                }
+            ],
+            "description": "General Purpose PHP Library",
+            "time": "2020-11-17T14:13:25+00:00"
+        },
+        {
+            "name": "eru123/pepe",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/eru123/pepe.git",
+                "reference": "968cda27463668485421d17886030176b5e6add5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/eru123/pepe/zipball/968cda27463668485421d17886030176b5e6add5",
+                "reference": "968cda27463668485421d17886030176b5e6add5",
+                "shasum": ""
+            },
+            "require": {
+                "eru123/noengine": "^2.0"
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "Pepe\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Jericho Aquino",
+                    "email": "yeoligoakino@gmail.com"
+                }
+            ],
+            "description": "API server script for Pepe",
+            "time": "2020-11-17T15:57:38+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}
